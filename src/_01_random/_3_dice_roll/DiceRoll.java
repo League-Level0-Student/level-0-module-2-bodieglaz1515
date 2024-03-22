@@ -52,17 +52,17 @@ public class DiceRoll {
 			// 1. Make randomChoice equal to a random number between 1 and 6
 			Random randomChoice;
 			randomChoice = new Random();
-			int number = ran.nextInt(2);
+			int number = randomChoice.nextInt(6);
 			// 2. Fix the code below so that it displays the correct image
-			if (randomChoice == 0) {
+			if (number == 1) {
 				label.setIcon(oneImg);
-			} else if (randomChoice == 0) {
+			} else if (number == 0) {
 				label.setIcon(twoImg);
-			} else if (randomChoice == 0) {
+			} else if (number == 2) {
 				label.setIcon(threeImg);
-			} else if (randomChoice == 0) {
+			} else if (number == 3) {
 				label.setIcon(fourImg);
-			} else if (randomChoice == 0) {
+			} else if (number == 5) {
 				label.setIcon(fiveImg);
 			} else {
 				label.setIcon(sixImg);

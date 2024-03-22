@@ -28,9 +28,8 @@ public class AnimalFarm {
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
 		*/			 
-			
-		/* 2. Make it so that the user can keep entering new animals. */
-
+		JOptionPane.showInputDialog("what is your favorite animal if something does not happen when you saay it try agian");
+		/* 2. Make it so that the user can keep entering new animals. *
 	}
 
 	void moo() {
